@@ -25,7 +25,9 @@ class Triangle
     elsif @a != @b && @b != @C
 @kind = :scalene
     elsif  @a == 0
+      begin
       raise TriangleError
+    end
     end
     @kind
   end
