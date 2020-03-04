@@ -6,7 +6,7 @@ class Triangle
     @sides << a
     @sides << b
     @sides << c
-    @sides = sides.sort
+    @sides = @sides.sort
 @a = @sides[0]
 @b = @sides[1]
 @c = @sides[2]
