@@ -1,18 +1,18 @@
 class Triangle
-  # write code here 
-  attr_accessor 
+  # write code here
+  attr_accessor
   def initialize (a, b, c)
 
-  end 
+  end
 
-  def kind 
-equilateral 
-isosceles 
+  def kind
+equilateral
+isosceles
 scalene
   end
 
-  class TriangleError < StandardError 
+  class TriangleError < StandardError
 
   end
-  
+
 end
