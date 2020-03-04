@@ -16,6 +16,8 @@ class Triangle
 @kind = "isosceles"
     elsif @a < @b && @b < @C
 @kind = "scalene"
+    elsif (@a + @b) !> @c 
+      raise TriangleError
     end
   end
 
