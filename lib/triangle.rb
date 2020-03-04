@@ -6,15 +6,14 @@ class Triangle
     @sides.unshift(a, b, c)
     @sides = @sides.sort
 
-@a, @b, @c = @sides
-if (@a + @b) <= @c
-raise TriangleError
-end
-@kind = self.kind
-  end
-
-  def sides
-@sides
+    @a, @b, @c = @sides 
+    
+    if (@a + @b) <= @c
+      raise TriangleError
+    end
+    
+    @kind = self.kind
+    
   end
 
   def kind
