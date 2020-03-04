@@ -3,9 +3,9 @@ class Triangle
   attr_accessor :a, :b, :c, :kind
   def initialize (a, b, c)
     sides = []
-    sides << a 
-    sides << b 
-    sides << c 
+    sides << a
+    sides << b
+    sides << c
     sides = sides.sort
 @a = sides[0]
 @b = sides[1]
