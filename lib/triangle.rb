@@ -18,7 +18,7 @@ class Triangle
 @kind = :equilateral
     elsif @a < @b && @b == @c
 @kind = :isosceles
-    elsif @a < @b && @b < @C
+    elsif @a != @b && @b != @C
 @kind = :scalene
     elsif (@a + @b) > @c != true
       raise TriangleError
