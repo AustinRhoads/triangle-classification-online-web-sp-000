@@ -13,7 +13,7 @@ class Triangle
     if @a == @b && @b == @c
 @kind = "equilateral"
     elsif @a < @b && @b == @c
-@kind = "isosceles" 
+@kind = "isosceles"
     elsif @a < @b && @b < @C
 @kind = "scalene"
     end
