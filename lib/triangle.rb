@@ -15,11 +15,11 @@ class Triangle
 
   def kind
     if @a == @b && @b == @c
-@kind = equilateral
+return equilateral
     elsif @a < @b && @b == @c
-@kind = isosceles
+return isosceles
     elsif @a < @b && @b < @C
-@kind = scalene
+return scalene
     elsif (@a + @b) > @c != true
       raise TriangleError
     end
