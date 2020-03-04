@@ -9,7 +9,7 @@ class Triangle
 @a = @sides[0]
 @b = @sides[1]
 @c = @sides[2]
-if @a == 0 || (@a + @b) > @c != true
+if @a == 0 || (@a + @b) <= @c 
 raise TriangleError
 end
 @kind = self.kind
