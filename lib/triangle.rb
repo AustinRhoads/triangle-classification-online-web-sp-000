@@ -20,7 +20,7 @@ class Triangle
 @kind = :isosceles
     elsif @a != @b && @b != @C
 @kind = :scalene
-    elsif (@a + @b) > @c != true || @sides.count < 3
+    elsif (@a + @b) > @c != true || @sides.count != 3
       raise TriangleError
     end
     @kind
