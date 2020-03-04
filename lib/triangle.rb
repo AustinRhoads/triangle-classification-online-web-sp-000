@@ -11,7 +11,7 @@ class Triangle
 @a = @sides[0]
 @b = @sides[1]
 @c = @sides[2]
-if @a == 0
+if @a == 0 || (@a + @b) > @c != true
 raise TriangleError
 end
 @kind = self.kind
@@ -28,9 +28,6 @@ end
 @kind = :isosceles
     elsif @a != @b && @b != @C
 @kind = :scalene
-    elsif (@a + @b) > @c != true || @a == 0
-
-      raise TriangleError
 
     end
 
