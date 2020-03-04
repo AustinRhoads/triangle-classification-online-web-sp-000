@@ -14,7 +14,7 @@ class Triangle
 @kind = "equilateral"
 isosceles
 scalene 
-  end
+    end
   end
 
   class TriangleError < StandardError
