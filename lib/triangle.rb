@@ -6,7 +6,7 @@ class Triangle
 @a = sides[0]
 @b = sides[1]
 @c = sides[2]
-@kind = self.kind 
+@kind = self.kind
   end
 
   def kind
