@@ -7,10 +7,10 @@ class Triangle
     @sides << b
     @sides << c
     @sides = @sides.sort
-  
+
 @a = @sides[0]
 @b = @sides[1]
-@c = @sides[2] 
+@c = @sides[2]
 if @a == 0
 raise TriangleError
 end
