@@ -6,9 +6,7 @@ class Triangle
     @sides.unshift(a, b, c)
     @sides = @sides.sort
 
-@a = @sides[0]
-@b = @sides[1]
-@c = @sides[2]
+@a, @b, @c = @sides
 if (@a + @b) <= @c
 raise TriangleError
 end
