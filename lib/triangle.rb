@@ -11,9 +11,9 @@ class Triangle
 @b = @sides[1]
 @c = @sides[2]
 @kind = self.kind
-  end 
+  end
 
-  def sides  
+  def sides
 @sides
   end
 
