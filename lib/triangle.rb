@@ -24,7 +24,7 @@ class Triangle
 @kind = :isosceles
     elsif @a != @b && @b != @C
 @kind = :scalene
-    elsif (@a + @b) > @c != true || self.sides.include?("0")
+    elsif (@a + @b) > @c != true || self.sides.include?(0) == true
       raise TriangleError
     end
     @kind
