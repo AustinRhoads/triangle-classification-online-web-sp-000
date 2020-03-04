@@ -23,6 +23,7 @@ class Triangle
     elsif (@a + @b) > @c != true
       raise TriangleError
     end
+    @kind
   end
 
   class TriangleError < StandardError
