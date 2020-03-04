@@ -4,7 +4,7 @@ class Triangle
   def initialize (a, b, c)
     @sides = []
     @sides.unshift(a, b, c)
-      @sides = @sides.sort
+    @sides = @sides.sort
 
 @a = @sides[0]
 @b = @sides[1]
