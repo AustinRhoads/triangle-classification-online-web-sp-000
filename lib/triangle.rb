@@ -2,7 +2,11 @@ class Triangle
   # write code here
   attr_accessor :a, :b, :c, :kind
   def initialize (a, b, c)
-    sides = [a, b, c].sort
+    sides = []
+    sides << a 
+    sides << b 
+    sides << c 
+    sides.sort
 @a = sides[0]
 @b = sides[1]
 @c = sides[2]
