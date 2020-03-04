@@ -25,11 +25,11 @@ class Triangle
     elsif @a != @b && @b != @C
 @kind = :scalene
     elsif  @a == 0
-      
+
       raise TriangleError
-    
+
     end
-    
+
   end
 
   class TriangleError < StandardError
