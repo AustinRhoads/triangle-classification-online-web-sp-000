@@ -17,7 +17,7 @@ class Triangle
   end
 
   def kind
-    if @a == @b == @c
+    if @a == @b && @b == @c
 @kind = :equilateral
     elsif @a < @b && @b == @c
 @kind = :isosceles
