@@ -2,8 +2,8 @@ class Triangle
   # write code here
   attr_accessor :a, :b, :c, :kind
   def initialize (a, b, c)
-    @sides = [].sort
-    @sides.unshift(a, b, c)
+    @sides = []
+    @sides.unshift(a, b, c).sort
 
 
 @a = @sides[0]
