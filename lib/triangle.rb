@@ -12,8 +12,10 @@ class Triangle
   def kind
     if @a == @b && @b == @c
 @kind = "equilateral"
-isosceles
-scalene
+    elsif @a < @b && @b == @c
+@kind = "isosceles" 
+    elsif @a < @b && @b < @C
+@kind = "scalene"
     end
   end
 
